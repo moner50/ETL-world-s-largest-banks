@@ -55,11 +55,28 @@ This project extracts, transforms, and loads data on the **top 10 largest banks 
 
 ## 🛠️ How to Run
 
-### 1. Install dependencies:
+### 1. Install Dependencies
+
+Make sure you have **Python 3.11** installed. Then install the required libraries using:
 
 ```bash
 python3.11 -m pip install requests pandas beautifulsoup4 numpy
-# 2. Download the exchange rate CSV:
+```
+### 2. Download Exchange Rate CSV
+Use wget to download the exchange rate file required for currency conversion:
+```bash
 wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv
----
+```
+### 3. Run the ETL Script
+```bash
+python3.11 banks_project.py
+```
+After running, the following files will be generated:
+
+Largest_banks_data.csv — the processed data
+
+Banks.db — SQLite database containing the Largest_banks table
+
+code_log.txt — a timestamped log of all ETL step
+
 
