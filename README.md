@@ -63,7 +63,7 @@ python3.11 -m pip install requests pandas beautifulsoup4 numpy
 wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv
 ---
 
-## 🧾 Coursera Submission Notes
+# 🧾 Coursera Submission Notes
 
 This project is submitted as part of the **Data Engineer Level 1 Certificate – Coursera (IBM Skills Network)**.
 
